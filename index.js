@@ -8,9 +8,10 @@ function theBeatlesPlay(musicians, instruments){
 return bees
 }
 
-let n = 0
-let newFacts = []
+
 function johnLennonFacts(array){
+  let n = 0
+  let newFacts = []
   while(array.length > n){
     newFacts.push(`${array[n]}!!!`)
     n++
